@@ -50,8 +50,16 @@
 </head>
 
 <body class="home">
-		
-		
+
+{% include("nav/navigation.html.twig")%}
+ {% block body %}
+    
+ {% endblock %}
+
+   {% block footer%}
 
 </body>
+
+{% include("footer/footer1.html.twig")%}
+ {% endblock %}
 </html>
